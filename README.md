@@ -20,13 +20,12 @@ A modern, Lua-based Neovim configuration designed to be a lightweight yet powerf
 
 ## Core Key Mappings
 
+## Core Key Mappings
+
 -   **Leader Key**: `<Space>`
--   **Window Navigation**: `Ctrl + h/j/k/l` to move between windows.
--   **File Explorer**: `<leader>e` to toggle the `neo-tree` file explorer.
--   **Fuzzy Finder**:
-    -   `<leader>ff`: Find files.
-    -   `<leader>fg`: Grep (live search) in files.
-    -   `<leader>fb`: Browse buffers.
+-   **Interactive Help**: This configuration uses `which-key.nvim`. Simply press the **Leader** key and wait        for a second to see a popup menu listing all available keybindings and their functions.
+-   **Custom Mappings**: For a detailed view of the core shortcuts (window navigation, line movements, etc.),       please refer to the configuration file:
+    `lua/core/keymaps.lua`
 -   **Terminal**: `<leader>t` to toggle a floating terminal.
 -   **C++ Compile & Run**: `<F5>`
 
